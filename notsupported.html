@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not Supported</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .logo {
+            max-width: 200px; /* Adjust the image size as needed */
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 18px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="logo" src="./images/notsupported.gif" alt="Logo">
+        <h1>Oopsies!</h1>
+        <h2>This website is not supported on mobiles.</h2>
+        <ul>
+            <li>The website is under development for smaller devices.</li>
+            <li>Try accessing it from a computer/PC.</li>
+        </ul>
+    </div>
+
+    <script>
+        // JavaScript to detect if the user is on a PC
+        if (window.innerWidth > 768) { // Adjust the width threshold as needed
+            // Redirect to the index.html page
+            window.location.href = './index.html';
+        }
+    </script>
+</body>
+</html>

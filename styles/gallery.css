@@ -1,0 +1,50 @@
+.intro { 
+  text-align: center; 
+  font-family: Arial;
+}
+
+h2 { 
+  font-size: 36px;
+}
+
+p { 
+  font-size: 14pt;
+}
+
+#image-gallery { 
+  width: 600px; 
+  margin: 0 auto;
+}
+
+#current-image { 
+  max-width: 50%;
+  max-height: 50%;
+  transition: transform 2s;
+  border-radius: 10px;
+} 
+
+#current-image:hover{
+    transform:scale(1.05);
+}
+
+#image-thumbs { 
+  display: flex; 
+  justify-content: center; 
+  margin-top: 20px;
+}
+
+.thumb { 
+  width: 80px; 
+  height: 80px; 
+  object-fit: cover; 
+  margin-right: 10px; 
+  cursor: pointer;
+  max-width: 50%;
+  max-height: 50%;
+  transition: transform 1s;
+  border-radius: 5px;
+}
+
+.thumb:hover{
+    transform:scale(1.05);
+}
