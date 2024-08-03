@@ -86,7 +86,7 @@ body {
 /* about section image css */
 .imageAboutPage {
     width: 100%;
-    box-shadow: 0 0 20px rgba(252, 186, 3, 0.8);
+    box-shadow: 0 0 20px rgba(4, 139, 176, 0.8);
     transition: transform 2s;
     border-radius: 20px;
 }

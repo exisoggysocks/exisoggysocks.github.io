@@ -3,7 +3,7 @@ function login() {
     var password = document.getElementById("password").value;
 
     // Check if the username and password are correct
-    if (username === "Exi" && password === "exiiscool") {
+    if (username === "Exi" && password === "bigdickgang") {
         document.getElementById("login-form").style.display = "none";
         document.getElementById("hi-message").style.display = "block";
     } else {
