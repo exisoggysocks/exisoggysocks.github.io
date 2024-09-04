@@ -1,0 +1,221 @@
+body {
+    background-color: black !important; /* Adding !important can increase specificity */
+    color: white !important;
+}
+.navbarScroll.navbarDark {
+    background-color: black; 
+}
+
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#myGif {
+    width: 100%;
+    height: auto; /* Automatically adjust height while maintaining aspect ratio */
+    margin-top: 20px; /* Adjust the value to move the GIF down */
+    box-shadow: 0 0 100px rgba(112, 27, 224, 0.8); /* Dark blue glow color */
+    border-radius: 40px;
+}
+
+.navbar-brand {
+    background-color: #1eb8e3;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+} 
+
+.navbar-brand:hover {
+    background-color: #048bb0;
+} 
+
+.circular-image {
+    transition: transform 2s;
+}
+
+.circular-image:hover {
+    transform:scale(1.1);
+}
+
+.nav-link {
+    background-color: #1eb8e3;
+    border-radius: 10px;
+    width: 80px; /* Set width and height to the same value to create square buttons */
+    height: 40px; /* Set width and height to the same value to create square buttons */
+    margin: 0 5px;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    font-family: Consolas;
+}
+
+.nav-link:hover {
+    background-color: #048bb0;
+}
+
+.hero_title {
+    -webkit-text-stroke: 1.5px black;
+}
+
+/* spacing on all sections */
+/* #about, #facts, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+} */
+#contact {
+    padding-bottom: 4rem;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+    box-shadow: 0 0 20px rgba(4, 139, 176, 0.8);
+    transition: transform 2s;
+    border-radius: 20px;
+}
+
+.imageAboutPage:hover {
+    transform:scale(1.05);
+}
+
+/* facts section css */
+.factsText.card {
+    height: 280px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(4, 139, 176, 0.8); /* #048bb0 glow color */
+    border: 1px solid #048bb0;
+}
+
+.factsIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.factsText {
+    border: 1px solid #048bb0;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-discord:hover{
+    color: #5865F2;
+}
+
+.fa-youtube:hover{
+    color: #c4302b;
+}
+
+.fa-x-twitter:hover{
+    color: #FFFFFF;
+}
+
+.fab {
+    color: #000000;
+}
+
+.fa-brands {
+    color: #000000;
+}
+
+/* footer styling */
+#footer {
+    background-color: #1eb8e3;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(4, 139, 176, 0.8);
+}
+
+#facts {
+    background-color: black;
+    color: white;
+    padding-top: 50px; /* Adjust padding as needed */
+    padding-bottom: 50px; /* Adjust padding as needed */
+}
+
+.card.factsText {
+    background-color: black;
+    color: white;
+    border: 1px solid #1eb8e3; /* Add a border for contrast */
+}
+
+
+.card-title {
+    text-align: center;
+    color: white; /* Text color for card titles */
+}
+
+.card-text ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.card-text li {
+    margin-bottom: 10px; /* Adjust spacing between list items */
+}
+
+
+#banner-container {
+    width: 100%;
+    display: inline-block;
+    animation: fadeIn 3s ease-in-out; /* Adjust the animation duration as needed */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0; /* Start transparent */
+    }
+    100% {
+        opacity: 1; /* Fully visible */
+    }
+}
+
+#about {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 1s;
+}
+
+#facts {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 1s;
+}
+
+.card.factsText {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 1s;
+}
+
+.text-right {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  color: gray;
+  margin-right: 7px;
+}
+

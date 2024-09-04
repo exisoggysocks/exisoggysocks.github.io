@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Who is Exi?</title>
+  <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZJDP/K0Ba/xkkM/8ZJDP/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkkM/8ZJDP/K0FZ9itAWv8ZJDP/FiEt9BkkM/8ZJDP/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGSQz/xkkM/8qQFn2JDRL/yY4T/83UG//HCg4/xsnOP8mKjP/FiEt9BkkM/8ZJDP/AAAAAAAAAAAAAAAAGSQz/xkkM/8fLD7/Kj5W/yY5Uf8hMUb/ITNL/xsmNv8eKzz/IS9B/xgjMv8YIzL/FiAs9BkkM/8AAAAAAAAAAC1DXf8fLUL/LEFb/y9AVv83UG//N1Bv/yQ1TP8bJzf/IzNH/yAvQ/8cJjP/Exwp/x8sP/8VHyzxAAAAAAAAAAAkNUv/L0Vf/yxBXP8jNUz/K0Fa/yM0S/8uRV//GSY2/x8tP/8THCn/HCk6/xwoN/8cKTn/HCg48QAAAAAAAAAALkRe/yM0S/8oPFT/JTZN/y9FYP8jNEr/IzRL/xQdKv8mLzn/FyIx/xklNP8YIjH/IzFB/w8XIvEAAAAAAAAAAC5DXf83UG//LT5V/y1BXP8eLUP/JDVN/xkhNv8jKyv/GSMz/xciMP8aJjb/IC9B/xgjMv8XIi/xAAAAAAAAAAA5UXL/KT1W/ytAWf8hRUP/Mm9N/xtBOf8oa0P/HEgu/xlEKv8TIib/ER8k/xwjLf8dKjv/Gyc18QAAAAAAAAAAKTxU/ys9WP8eOzr/IlU+/zl2Vv8+hV7/XbaK/z2gZP8gUDL/GUUr/yBNMv8cQC7/HCk5/xsnN/EAAAAAAAAAAC5WSf89eFv/IUk9/zSAUv9Fpm7/TKt3/0+sev9Ep2v/RaRw/1Cwef8nVjr/H0ox/xZDJ/8RGSXxAAAAAAAAAAAucUn/Nn5V/zyeY/9HonD/RqZv/0undP9OqHn/QqFs/0Klaf9Eo2z/S6xz/0Cgaf8bSy3/GD4n8QAAAAAAAAAANZZd/0Oma/9QqX3/QKRo/1Svfv9KqHT/NJdc/1+4i/9Hqm//Op1i/zKVWf81ll3/NZZd/zWWXf8AAAAAAAAAAAAAAAA1ll3/NZZd/zudYvs5m2H/P59n/zebXv9KpXP/U65+/zCTV/8yllr/NZZd/zWWXf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1ll3/NZZd/zufY/85nGD/P6Fm/zqcYP86nGD/NZZd/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1ll3/OZxg/zmcYP81ll3/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/D8AAPAPAADAAwAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAMADAADwDwAA/D8AAA==" rel="icon" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/quote.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/e933fc521b.js" crossorigin="anonymous"></script>
+  <!--mobileusers-->
+  <script>
+    if (/Mobi/i.test(navigator.userAgent) || /Android/i.test(navigator.userAgent)) {
+        window.location.href = "notsupported";
+    }
+  </script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a class="navbar" href="#">
+            <style>
+            .circular-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            }
+            </style>
+            <img src="./images/profile.png" alt="Exi Logo" alt="Your Image" class="circular-image" style="height: 70px; width:auto;">
+                 </a>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" style="color:white">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#facts" style="color:white">Facts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./gallery" style="color:white">Gallery</a>
+                    </li>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section id="banner">
+    <div class="container-fluid" id="banner-container">
+    <img src="./images/banner.png" alt="Banner" id="myGif">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+            <h2><i class="fas fa-quote-left"></i>
+                <span class="quote" id="quote"></span>
+                <i class="fas fa-quote-right"></i><p class="author" id="author"></p>
+            </h2>
+        </div>
+    </div>
+</div>
+</section>
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <br>
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="./images/profile.png" class= "imageAboutPage" alt=""><br><br>
+                    <center><b>•<u>Pro tip</u>: Made this in LoFi girl website lol</b></center>
+                </div>
+
+                <div class="col-lg-8">
+                    <p> Hey! I am <b>Exi</b>. Some people call me <b>Crash</b>. Well, because it was my old username. I've had many usernames but the username Exi makes me what I am. A <b>clown</b>. Yeah.. I mostly use this username in Discord but I also have a Meme Page at Youtube. You can find it's link below at the <b>footer</b>. So anyways here is some more info about me:                        
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li><b>Name</b>: Arpith</li>
+                                <li><b>Age</b>: <span id="age"></span></li>
+                                <li><b>Guy or not</b>: Guy</li>
+
+                            </ul>
+                    </div>
+                    <div class="row mt-3">
+                        <p> I've always wanted to create a website about me. I used a <b>HTML</b> template from the web, edited it and added some features myself. I want people to know I like <b>programming</b>. I had to use <b>GitHub</b> (Heaven for programmers) and host my website on it, since I can't pay for my custom domain. 
+                            I'm amazed over the fact that instead of using <b>Website Builders</b> like Wix.com, it just took <b>3</b> days for me to create this website. I wanted to be as <b>creative</b> as possible, but newbies like me have their limits. So if you scroll down below, you can see some <b>facts</b> about me (I did use ChatGPT but not excessively).
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- facts section-->
+    <section id="facts">
+        <div class="container">
+            <br>
+            <h1 class="text-center">Facts</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card factsText">
+                        <div class="card-body">
+                            <i class="fas factsIcon fa fa-television"></i>
+                            <h4 class="card-title mt-3">Favourite Series</h4>
+                            <p class="card-text mt-3">
+                            <ul>
+                                <li>Breaking Bad</li>
+                                <li>The Boys</li>
+                                <li>The Chosen</li>
+                                <li>One Piece</li>
+                                <li>Rick and Morty</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card factsText">
+                        <div class="card-body">
+                            <i class='fas factsIcon fa fa-gamepad'></i>
+                            <h4 class="card-title mt-3">Favourite Games</h4>
+                            <p class="card-text mt-3">
+                            <ul>
+                                <li>GTA Series</li>
+                                <li>Roblox</li>
+                                <li>Half-Life 2</li>
+                                <li>Minecraft</li>
+                                <li>Assassin's Creed Series</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card factsText">
+                        <div class="card-body">
+                            <i class='far factsIcon fa fa-thumbs-up'></i>
+                            <h4 class="card-title mt-3">Likes</h4>
+                            <p class="card-text mt-3">
+                            <ul>
+                                <li>Reading.</li>
+                                <li>Watching comedy/action movies.</li>
+                                <li>Programming.</li>
+                                <li>Trying to get fit.</li>
+                                <li>My lil bro.</li>
+                                <li>Most music genres.</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card factsText">
+                        <div class="card-body">
+                            <i class='fas factsIcon fa fa-users'></i>
+                            <h4 class="card-title mt-3">Friends</h4>
+                            <p class="card-text mt-3">
+                            <ul>
+                                <li><a href="https://youtube.com/@TransilP" target="_blank" style="color:#1eb8e3; text-decoration:none;">TransilPro </li>
+                                <li><a href="https://youtube.com/@cutebrain" target="_blank" style="color:#1eb8e3; text-decoration:none;">Cutebrain </a></li>
+                                <li><a href="https://www.youtube.com/@TuttuTheDog" target="_blank" style="color:#1eb8e3; text-decoration:none;">Tuttu The Dog </a></li>
+                                <li><a  target="_blank" style="color:white; text-decoration:none;">Corpsy </a></li>
+                                <li><a  target="_blank" style="color:white; text-decoration:none;">Joel </a></li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card factsText">
+                        <div class="card-body">
+                            <i class='fas factsIcon fa fa-laptop'></i>
+                            <h4 class="card-title mt-3">Setup</h4>
+                            <p class="card-text mt-3">
+                            <ul>
+                                <li>A 10 year old PC.</li>
+                                <li>Windows 11 Home.</li>
+                                <li>Intel i7 4th Gen</li>
+                                <li>16 GB RAM.</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card factsText">
+                        <div class="card-body">
+                            <i class='far factsIcon fa fa-thumbs-down'></i>
+                            <h4 class="card-title mt-3">Dislikes</h4>
+                            <p class="card-text mt-3">
+                            <ul>
+                                <li>Exams.</li>
+                                <li>Cricket.</li>
+                                <li>Flights (I go almost every year to UAE so it's boring now.).</li>
+                                <li>Facebook.</li>
+                                <li>Romantic Movies.</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- footer section-->
+    <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <a href="https://www.youtube.com/@exisoggysocks" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.discord.gg/EedASnsaKM" target="_blank"><i class="fab fa-discord"></i></a>
+                <a href="https://twitter.com/ArpithAnto" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="bottomtext_container">
+        <p class="text-right">Made with ❤️ by <a href="getout.html">Exi</a>.</p>
+    </div>
+
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+    <script src="script/quote.js"></script>
+
+</body>
+</html>

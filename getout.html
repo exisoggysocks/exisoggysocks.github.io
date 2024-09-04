@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Top Secret</title>
+    <script src="script/script.js"></script>
+    <script src="script/quote.js"></script>
+    <script src="script/gallery.js"></script>
+    <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAA6+vrAP///wDt+/0AbtPvABy23ACtra0Adtr5ANXV1QCR4foAx8fHAKjs+QAXpdQA7+/vAA6CxADS9fwAgN3zADi04wAardgAFZ3RAMXFxQANf8MAEpLMAF3J6wAhtNgAEYzJAJLn9wC58PoA2/f9AEq+5wDH8/sA4vn9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADBMWGQ4VFRUVFRUVAAAAABIJBwcHBwcHBwcHFQAAAAAFDwsaGhAEFx0RBxUAAAAABQ8LGhoQBBcdEQcVAAAAAAUcCxoaEAQXHREHFQAAAAAFHwsaGhAEFx0RCQ4AAAAABR8LGhoQBBcdEQkZAAAAAAUCAx8cDw8eGwsJEwAAAAAFBgEGGAUFGAYUBhIAAAAAAAYNBgAAAAAGFAYAAAAAAAAGDQYAAAAABhQGAAAAAAAABgINBgYGBgYKBgAAAAAAAAAGAggICAoUBgAAAAAAAAAAAAYGBgYGBgAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AADAAwAAwAMAAMADAADAAwAAwAMAAMADAADAAwAAwAMAAMADAADjxwAA48cAAOAHAADwDwAA+B8AAP//AAA=" rel="icon" type="image/x-icon">
+    <style>
+        body {
+            background-color: #000; /* Black background */
+        }
+        h1, h3, label, #hi-message{
+            font-family: Consolas;
+            color: white; /* White text color */
+            text-shadow: 0 0 2px white; /* White glow effect */
+        }
+        button {
+            font-family: Consolas;
+            background-color: white; /* Background color */
+            color: black; /* Text color */
+            border: none; /* Remove border */
+            padding: 5px 20px; /* Padding for the button */
+            cursor: pointer; /* Add a pointer cursor on hover */
+        }
+        .text-right {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            font-family: Consolas;
+            font-size: 11px;
+            color: gray;
+            margin-right: 7px;
+        }
+        .hide {
+        	background-color: white;
+        }
+        .hide:hover {
+        	background-color: black;
+        }
+
+        .blackyeye {
+        	position: fixed;
+        	top: 0;
+        	right: 0;
+        }
+    </style>
+    <script>
+        if (/Mobi/i.test(navigator.userAgent) || /Android/i.test(navigator.userAgent)) {
+            window.location.href = "notsupported";
+        }
+    </script>
+</head>
+<body>
+    <form id="login-form">
+    	<h1>Error 403: Access Denied.</h1>
+        <h3>Enter username and password to access.</h3>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <button type="button" onclick="login()">Enter</button>
+
+        <div class="bottomtext_container">
+        <p class="text-right">Hola. Only legends will check S0urc3 c0d3.</p>
+    </div>
+    </form>
+
+    <div id="hi-message" style="display: none;">
+    <p>Hi. You must be Exi. No?</p>
+    <p>Who cares anyways?</p>
+    <p>I'll show you some stuff..</p>
+    <br>
+    <h2>More Stupid Secrets:</h2>
+    <h3>(Hover to see)</h3>
+    <p><li>Nationality: <a class="hide">Indian</a></p>
+    <p><li>Current Country: <a class="hide">India</a></p>
+    <p><li>Favourite Youtubers: <a class="hide">Markiplier, DanTDM, Mark Rober, etc.</a></p>
+    <p><li>Favourite Movie: <a class="hide">Deadpool & Wolverine</a></p>
+    <p><li>Favourite Colour: <a class="hide">Orange</a></p>
+    <p><li>Coding Source: <a class="hide">HTML Website Templates, W3Schools, ChatGPT</a></p>
+    <p><li>Sexuality: <a class="hide">Straight</a></p>
+    <p><li>Zodiac Sign: <a class="hide">Cancer</a></p>
+    <p><li>Guilty Truth: <a class="hide">"I used a little too much ChatGPT."</a></p>
+    <p><li>Coding Experience: <a class="hide">6/10</a></p>
+    <p><li>Common Coding Language: <a class="hide">Python</a></p>
+    <p><li>Favourite Actor: <a class="hide">Ryan Reynolds</a></p>
+    <p><li>Secret Youtube Channel: <a class="hide">Coding With Arpith</a></p>
+    <img src="./images/blackeye.gif" class="blackyeye" alt="" oncontextmenu="return false;" ondragstart="return false;">
+    </div>
+
+</body>
+</html>
